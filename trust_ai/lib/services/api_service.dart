@@ -7,7 +7,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 // ─── Change _kDev to false before production deployment ──────────────────────
-const bool _kDev       = false;
+const bool _kDev       = true;
 const _devUrl  = 'http://localhost:5000/api';
 const _prodUrl = 'https://YOUR_PRODUCTION_URL/api';
 
